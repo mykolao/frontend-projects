@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/frontend-projects/static/css/main.f12918c0.chunk.css",
+    "main.js": "/frontend-projects/static/js/main.6f752517.chunk.js",
+    "main.js.map": "/frontend-projects/static/js/main.6f752517.chunk.js.map",
+    "runtime-main.js": "/frontend-projects/static/js/runtime-main.635c8e5f.js",
+    "runtime-main.js.map": "/frontend-projects/static/js/runtime-main.635c8e5f.js.map",
+    "static/js/2.1ce3fe2c.chunk.js": "/frontend-projects/static/js/2.1ce3fe2c.chunk.js",
+    "static/js/2.1ce3fe2c.chunk.js.map": "/frontend-projects/static/js/2.1ce3fe2c.chunk.js.map",
+    "index.html": "/frontend-projects/index.html",
+    "static/css/main.f12918c0.chunk.css.map": "/frontend-projects/static/css/main.f12918c0.chunk.css.map",
+    "static/js/2.1ce3fe2c.chunk.js.LICENSE.txt": "/frontend-projects/static/js/2.1ce3fe2c.chunk.js.LICENSE.txt",
+    "static/media/icon-music.f20c7787.svg": "/frontend-projects/static/media/icon-music.f20c7787.svg",
+    "static/media/illustration-hero.73032583.svg": "/frontend-projects/static/media/illustration-hero.73032583.svg",
+    "static/media/index.module.scss": "/frontend-projects/static/media/pattern-background-desktop.5a0ab689.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.635c8e5f.js",
+    "static/js/2.1ce3fe2c.chunk.js",
+    "static/css/main.f12918c0.chunk.css",
+    "static/js/main.6f752517.chunk.js"
+  ]
+}
