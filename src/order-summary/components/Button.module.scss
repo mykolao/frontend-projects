@@ -1,0 +1,40 @@
+@import "../variables";
+
+.button {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px;
+
+  @media (min-width: $breakpoint-desktop) {
+    margin: 10px 40px;
+  }
+
+  button {
+    background-color: white;
+    border: none;
+    padding: 15px;
+    font-weight: 900;
+  }
+
+  .filled {
+    background-color: $light-blue;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 0px 6px 25px 0px $desaturated-blue;
+    z-index: 2;
+
+    &:hover {
+      cursor: pointer;
+      background-color: $lighter-blue;
+    }
+  }
+
+  .empty {
+    color: $pale-blue;
+
+    &:hover {
+      cursor: pointer;
+      color: $dark-blue;
+    }
+  }
+}

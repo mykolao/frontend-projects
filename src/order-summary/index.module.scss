@@ -1,23 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
-
-// Primary colors
-$pale-blue: hsl(225, 100%, 94%);
-$light-blue: hsl(245, 75%, 52%);
-$lighter-blue: hsl(245, 83, 68);
-
-// Secondary colors
-$very-pale-blue: hsl(225, 100%, 98%);
-$desaturated-blue: hsl(224, 23%, 55%);
-$dark-blue: hsl(223, 47%, 23%);
-
-// Typography
-$font-size: 16px;
-
-// Border
-$border-radius: 22px;
-
-// Breakpoints
-$breakpoint-desktop: 1440px;
+@import "./variables";
 
 .order_summary {
   width: 100vw;
@@ -55,100 +37,6 @@ $breakpoint-desktop: 1440px;
       @media (min-width: $breakpoint-desktop) {
         width: 430px;
         object-fit: cover;
-      }
-    }
-
-    .header {
-      margin-top: 30px;
-      text-align: center;
-      font-size: 1.4rem;
-      font-weight: 900;
-      color: $dark-blue;
-    }
-
-    .paragraph {
-      margin-top: 20px;
-      text-align: center;
-      color: $desaturated-blue;
-      line-height: 25px;
-    }
-
-    .product {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-color: $very-pale-blue;
-      border-radius: 15px;
-      margin: 25px;
-      padding: 15px;
-
-      @media (min-width: $breakpoint-desktop) {
-        margin: 25px 40px;
-      }
-
-      .description {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-
-        .title {
-          margin-bottom: 5px;
-          font-weight: 900;
-          color: $dark-blue;
-        }
-
-        .price {
-          color: $desaturated-blue;
-        }
-      }
-      .link {
-        font-weight: 700;
-        color: $light-blue;
-
-        &:hover {
-          cursor: pointer;
-          text-decoration: none;
-          color: $lighter-blue;
-        }
-      }
-    }
-
-    .button {
-      display: flex;
-      flex-direction: column;
-      margin: 10px 20px;
-
-      @media (min-width: $breakpoint-desktop) {
-        margin: 10px 40px;
-      }
-
-      button {
-        background-color: white;
-        border: none;
-        padding: 15px;
-        font-weight: 900;
-      }
-
-      .filled {
-        background-color: $light-blue;
-        border-radius: 15px;
-        color: white;
-        box-shadow: 0px 6px 25px 0px $desaturated-blue;
-        z-index: 2;
-
-        &:hover {
-          cursor: pointer;
-          background-color: $lighter-blue;
-        }
-      }
-
-      .empty {
-        color: $pale-blue;
-
-        &:hover {
-          cursor: pointer;
-          color: $dark-blue;
-        }
       }
     }
   }

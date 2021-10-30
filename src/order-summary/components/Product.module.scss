@@ -1,0 +1,41 @@
+@import "../variables";
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $very-pale-blue;
+  border-radius: 15px;
+  margin: 25px;
+  padding: 15px;
+
+  @media (min-width: $breakpoint-desktop) {
+    margin: 25px 40px;
+  }
+
+  .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .title {
+      margin-bottom: 5px;
+      font-weight: 900;
+      color: $dark-blue;
+    }
+
+    .price {
+      color: $desaturated-blue;
+    }
+  }
+  .link {
+    font-weight: 700;
+    color: $light-blue;
+
+    &:hover {
+      cursor: pointer;
+      text-decoration: none;
+      color: $lighter-blue;
+    }
+  }
+}
