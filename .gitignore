@@ -13,6 +13,8 @@
 
 # misc
 workspace.*
+src/order-summary/resources/*
+
 .DS_Store
 .env.local
 .env.development.local
